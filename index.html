@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="notSupported">Sorry, Web Serial is not supported on this device, make sure you're running Chrome 78 or
+            later and have enabled the #enable-experimental-web-platform-features flag in chrome://flags</div>
+        <div>
+            <button id="connect" onClick="connect()">Connect</button>
+        </div>
+        <div id="log"></div>
+        <div>
+            <input id="input" type="text" onKeyPress="handle(event)" disabled />
+            <button id="sendButton" onClick="send()" disabled>Send</button>
+        </div>
+    </div>
+    <script src="source.js"></script>
+</body>
+
+</html>

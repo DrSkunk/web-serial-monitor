@@ -1,0 +1,20 @@
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+#input {
+    width: 100%;
+}
+
+#log {
+    height: 80vh;
+    width: 100%;
+    overflow: scroll;
+    background-color: black;
+    color:white;
+    white-space: pre;
+}
+
+.hidden {
+    display: none;
+}
